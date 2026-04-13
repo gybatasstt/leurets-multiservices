@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LEURET'S MULTISERVICES LLC</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function cambiarIdioma(idioma) {
+      document.querySelectorAll('[data-es]').forEach(el => {
+        el.textContent = idioma === 'es' ? el.getAttribute('data-es') : el.getAttribute('data-en');
+      });
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.jpg" alt="Logo LEURET'S MULTISERVICES LLC" class="logo">
+      <h1 data-es="LEURET'S MULTISERVICES LLC" data-en="LEURET'S MULTISERVICES LLC">LEURET'S MULTISERVICES LLC</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#inicio" data-es="Inicio" data-en="Home">Inicio</a></li>
+        <li><a href="#servicios" data-es="Servicios" data-en="Services">Servicios</a></li>
+        <li><a href="#nosotros" data-es="Nosotros" data-en="About Us">Nosotros</a></li>
+        <li><a href="#testimonios" data-es="Testimonios" data-en="Testimonials">Testimonios</a></li>
+        <li><a href="#contacto" data-es="Contacto" data-en="Contact">Contacto</a></li>
+        <li><a href="#blog" data-es="Blog" data-en="Blog">Blog</a></li>
+      </ul>
+    </nav>
+    <div class="idiomas">
+      <button onclick="cambiarIdioma('es')">Español</button>
+      <button onclick="cambiarIdioma('en')">English</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- Inicio -->
+    <section id="inicio">
+      <img src="inicio.jpg" alt="Limpieza profesional" class="imagen-principal">
+      <h2 data-es="Más que limpieza, cuidamos tu entorno." data-en="More than cleaning, we care for your environment.">Más que limpieza, cuidamos tu entorno.</h2>
+      <p data-es="En Leuret’s Multiservices LLC creemos que un espacio limpio es la base de la tranquilidad y la productividad. Somos una compañía de limpieza profesional en Spring Hill, Florida, dedicada a ofrecer soluciones confiables y personalizadas para hogares y negocios."
+         data-en="At Leuret’s Multiservices LLC we believe a clean space is the foundation of peace and productivity. We are a professional cleaning company in Spring Hill, Florida, dedicated to offering reliable and personalized solutions for homes and businesses.">
+         En Leuret’s Multiservices LLC creemos que un espacio limpio es la base de la tranquilidad y la productividad...
+      </p>
+      <a href="#contacto" class="btn" data-es="Solicita tu presupuesto" data-en="Request a quote">Solicita tu presupuesto</a>
+      
+  <!-- Redes sociales -->
+<div class="social-links">
+  <a href="https://facebook.com/tuempresa" target="_blank" class="social-btn facebook">
+    <img src="facebook-icon.png" alt="Facebook" class="icon"> Facebook
+  </a>
+  <a href="https://instagram.com/tuempresa" target="_blank" class="social-btn instagram">
+    <img src="instagram-icon.png" alt="Instagram" class="icon"> Instagram
+  </a>
+</div>
+
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios">
+      <h2 data-es="Nuestros Servicios" data-en="Our Services">Nuestros Servicios</h2>
+      <div class="servicios-grid">
+        <div class="servicio">
+          <img src="residencial.jpg" alt="Limpieza Residencial">
+          <h3 data-es="🏠 Limpieza Residencial" data-en="🏠 Residential Cleaning">🏠 Limpieza Residencial</h3>
+          <p data-es="Cuidamos cada rincón de tu hogar con productos seguros y resultados impecables."
+             data-en="We take care of every corner of your home with safe products and impeccable results.">
+             Cuidamos cada rincón de tu hogar...
+          </p>
+          <a href="#contacto" class="btn" data-es="Agenda tu limpieza hoy" data-en="Book your cleaning today">Agenda tu limpieza hoy</a>
+        </div>
+        <div class="servicio">
+          <img src="comercial.jpg" alt="Limpieza Comercial">
+          <h3 data-es="🏢 Limpieza Comercial y de Oficinas" data-en="🏢 Commercial and Office Cleaning">🏢 Limpieza Comercial y de Oficinas</h3>
+          <p data-es="Espacios de trabajo limpios que reflejan profesionalismo y mejoran la experiencia de tus clientes."
+             data-en="Clean workspaces that reflect professionalism and improve your clients' experience.">
+             Espacios de trabajo limpios...
+          </p>
+          <a href="#contacto" class="btn" data-es="Agenda tu limpieza hoy" data-en="Book your cleaning today">Agenda tu limpieza hoy</a>
+        </div>
+        <div class="servicio">
+          <img src="especializada.jpg" alt="Limpieza Especializada">
+          <h3 data-es="✨ Limpieza Especializada" data-en="✨ Specialized Cleaning">✨ Limpieza Especializada</h3>
+          <p data-es="Ventanas, alfombras, limpiezas post-construcción y más, con el equipo adecuado para cada necesidad."
+             data-en="Windows, carpets, post-construction cleaning and more, with the right equipment for each need.">
+             Ventanas, alfombras...
+          </p>
+          <a href="#contacto" class="btn" data-es="Agenda tu limpieza hoy" data-en="Book your cleaning today">Agenda tu limpieza hoy</a>
+        </div>
+      </div>
+   <!-- Tipos de Limpieza -->
+<section id="tipos-limpieza">
+  <h2 data-es="Tipos de Limpieza" data-en="Cleaning Packages">Tipos de Limpieza</h2>
+  <div class="servicios-grid">
+
+    <!-- Limpieza Básica -->
+    <div class="servicio">
+      <h3 data-es="🧹 Limpieza Básica" data-en="🧹 Basic Cleaning">🧹 Limpieza Básica</h3>
+      <ul>
+        <li data-es="Barrido y trapeado de pisos" data-en="Sweeping and mopping floors">Barrido y trapeado de pisos</li>
+        <li data-es="Limpieza de superficies visibles" data-en="Cleaning visible surfaces">Limpieza de superficies visibles</li>
+        <li data-es="Desempolvado ligero" data-en="Light dusting">Desempolvado ligero</li>
+        <li data-es="Limpieza rápida de baños" data-en="Quick bathroom cleaning">Limpieza rápida de baños</li>
+        <li data-es="Retiro de basura" data-en="Trash removal">Retiro de basura</li>
+      </ul>
+    </div>
+
+    <!-- Limpieza Profunda -->
+    <div class="servicio">
+      <h3 data-es="🧽 Limpieza Profunda" data-en="🧽 Deep Cleaning">🧽 Limpieza Profunda</h3>
+      <ul>
+        <li data-es="Incluye todo lo de la básica" data-en="Includes everything from basic">Incluye todo lo de la básica</li>
+        <li data-es="Limpieza detallada de baños y cocina" data-en="Detailed cleaning of bathrooms and kitchen">Limpieza detallada de baños y cocina</li>
+        <li data-es="Limpieza de ventanas y marcos" data-en="Cleaning windows and frames">Limpieza de ventanas y marcos</li>
+        <li data-es="Aspirado de alfombras y tapicería" data-en="Vacuuming carpets and upholstery">Aspirado de alfombras y tapicería</li>
+        <li data-es="Desinfección de áreas de alto contacto" data-en="Disinfection of high-touch areas">Desinfección de áreas de alto contacto</li>
+      </ul>
+    </div>
+
+    <!-- Limpieza Premium -->
+    <div class="servicio">
+      <h3 data-es="✨ Limpieza Premium" data-en="✨ Premium Cleaning">✨ Limpieza Premium</h3>
+      <ul>
+        <li data-es="Incluye todo lo de la profunda" data-en="Includes everything from deep">Incluye todo lo de la profunda</li>
+        <li data-es="Pulido o encerado de pisos" data-en="Floor polishing or waxing">Pulido o encerado de pisos</li>
+        <li data-es="Limpieza de interiores de electrodomésticos" data-en="Cleaning inside appliances">Limpieza de interiores de electrodomésticos</li>
+        <li data-es="Aromatización con productos ecológicos" data-en="Aromatization with eco-friendly products">Aromatización con productos ecológicos</li>
+        <li data-es="Atención personalizada" data-en="Personalized attention">Atención personalizada</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+   <!-- Sobre Nosotros -->
+<section id="nosotros">
+  <h2 data-es="Sobre Nosotros" data-en="About Us">Sobre Nosotros</h2>
+  
+  <img src="nosotros.jpg" alt="Equipo de limpieza trabajando" class="imagen-nosotros">
+
+  <p>
+    <strong data-es="Historia:" data-en="History:">Historia:</strong>
+    <span data-es="LEURET'S MULTISERVICES LLC nació con la visión de brindar servicios de limpieza confiables en Spring Hill, Florida."
+          data-en="LEURET'S MULTISERVICES LLC was founded with the vision of providing reliable cleaning services in Spring Hill, Florida.">
+          LEURET'S MULTISERVICES LLC nació con la visión de brindar servicios de limpieza confiables en Spring Hill, Florida.
+    </span>
+  </p>
+
+  <p>
+    <strong data-es="Misión:" data-en="Mission:">Misión:</strong>
+    <span data-es="Brindar tranquilidad a nuestros clientes a través de espacios impecables, seguros y saludables."
+          data-en="Provide peace of mind to our clients through spotless, safe, and healthy spaces.">
+          Brindar tranquilidad a nuestros clientes a través de espacios impecables, seguros y saludables.
+    </span>
+  </p>
+
+  <p>
+    <strong data-es="Visión:" data-en="Vision:">Visión:</strong>
+    <span data-es="Ser la empresa líder en servicios de limpieza en Florida, reconocida por calidad y confianza."
+          data-en="To be the leading cleaning services company in Florida, recognized for quality and trust.">
+          Ser la empresa líder en servicios de limpieza en Florida, reconocida por calidad y confianza.
+    </span>
+  </p>
+
+  <p>
+    <strong data-es="Valores:" data-en="Values:">Valores:</strong>
+    <span data-es="Confianza, Calidad, Responsabilidad, Puntualidad."
+          data-en="Trust, Quality, Responsibility, Punctuality.">
+          Confianza, Calidad, Responsabilidad, Puntualidad.
+    </span>
+  </p>
+
+  <p>
+    <strong data-es="Diferenciadores:" data-en="Differentiators:">Diferenciadores:</strong>
+    <span data-es="Productos ecológicos, personal capacitado, atención personalizada."
+          data-en="Eco-friendly products, trained staff, personalized attention.">
+          Productos ecológicos, personal capacitado, atención personalizada.
+    </span>
+  </p>
+</section>
+
+    <!-- Testimonios -->
+    <section id="testimonios">
+      <h2 data-es="Testimonios" data-en="Testimonials">Testimonios</h2>
+      <div class="testimonios-grid">
+        <div class="testimonio">
+          <img src="testimonio1.jpg" alt="Trabajo realizado">
+          <p data-es="Excelente trabajo de limpieza en todo el condominio, los recomiendo." 
+             data-en="Excellent cleaning work throughout the condominium, I recommend them.">
+             Excelente trabajo de limpieza en todo el condominio, los recomiendo.
+          </p>
+          <h4>- Benjamin Sabala</h4>
+        </div>
+        <div class="testimonio">
+          <img src="testimonio2.jpg" alt="Trabajo realizado">
+          <p data-es="Leurets Multiservices son profesionales en el trabajo que realizan, estoy satisfecho con su trabajo." 
+             data-en="Leurets Multiservices are professionals in the work they do, I am satisfied with their work.">
+             Leurets Multiservices son profesionales en el trabajo que realizan, estoy satisfecho con su trabajo.
+          </p>
+          <h4>- Elvis Bustamante</h4>
+        </div>
+        <div class="testimonio">
+          <img src="testimonio3.jpg" alt="Trabajo realizado">
+          <p data-es="Puntualidad, confianza y calidad de su trabajo hacen la diferencia en Leurets Multiservices LLC. Los recomiendo." 
+             data-en="Punctuality, trust and quality of their work make the difference at Leurets Multiservices LLC. I recommend them.">
+             Puntualidad, confianza y calidad de su trabajo hacen la diferencia en Leurets Multiservices LLC. Los recomiendo.
+          </p>
+          <h4>- Mauricio Funes</h4>
+        </div>
+      </div>
+    </section>
+
+<!-- Contáctanos -->
+<section id="contacto">
+  <h2 data-es="Contáctanos" data-en="Contact Us">Contáctanos</h2>
+
+  <!-- Información de contacto -->
+  <div class="info-contacto">
+    <p>
+      <strong data-es="Correo de la compañía:" data-en="Company Email:">Correo de la compañía:</strong>
+      <span data-es="leuretsmultiservices@gmail.com" data-en="leuretsmultiservices@gmail.com">leuretsmultiservices@gmail.com</span>
+    </p>
+    <p>
+      <strong data-es="Teléfono Manager:" data-en="Manager Phone:">Teléfono Manager:</strong>
+      <span data-es="+1 (813) 389-6242" data-en="+1 (813) 389-6242">+1 (813) 389-6242</span>
+    </p>
+    <p>
+      <strong data-es="Teléfono Supervisor:" data-en="Supervisor Phone:">Teléfono Supervisor:</strong>
+      <span data-es="+1 (813) 330-1427" data-en="+1 (813) 330-1427">+1 (813) 330-1427</span>
+    </p>
+  </div>
+
+  <!-- Formulario que envía al correo -->
+  <form action="https://formspree.io/f/mkoplwqj" method="POST">
+    <label data-es="Nombre" data-en="Name">Nombre</label>
+    <input type="text" name="name" required>
+
+    <label data-es="Correo electrónico" data-en="Email">Correo electrónico</label>
+    <input type="email" name="email" required>
+
+    <label data-es="Teléfono" data-en="Phone">Teléfono</label>
+    <input type="tel" name="phone">
+
+    <label data-es="Mensaje" data-en="Message">Mensaje</label>
+    <textarea name="message" required></textarea>
+
+    <button type="submit" class="btn" data-es="Enviar" data-en="Send">Enviar</button>
+  </form>
+
+<!-- Botones directos a WhatsApp -->
+<div class="contact-buttons">
+  <div class="whatsapp-item">
+    <a href="https://wa.me/18133896242?text=Hola,%20quiero%20solicitar%20un%20servicio%20de%20limpieza" 
+       target="_blank" class="whatsapp-icon-btn" 
+       data-es="Enviar por WhatsApp al Manager" 
+       data-en="Send via WhatsApp to Manager">
+       <img src="whatsapp-icon.png" alt="WhatsApp" class="icon">
+    </a>
+    <span class="whatsapp-label">Manager</span>
+  </div>
+
+  <div class="whatsapp-item">
+    <a href="https://wa.me/18133301427?text=Hola,%20quiero%20solicitar%20un%20servicio%20de%20limpieza" 
+       target="_blank" class="whatsapp-icon-btn" 
+       data-es="Enviar por WhatsApp al Supervisor" 
+       data-en="Send via WhatsApp to Supervisor">
+       <img src="whatsapp-icon.png" alt="WhatsApp" class="icon">
+    </a>
+    <span class="whatsapp-label">Supervisor</span>
+  </div>
+</div>
+
+</section>
+
+
+<!-- Blog -->
+<section id="blog">
+  <h2 data-es="Blog" data-en="Blog">Blog</h2>
+  <div class="blog-grid">
+    
+    <!-- Entrada 1: 5 trucos -->
+    <article class="entrada">
+      <h3 data-es="5 trucos para mantener tu oficina impecable" 
+          data-en="5 tips to keep your office spotless">
+          5 trucos para mantener tu oficina impecable
+      </h3>
+      <p data-es="Descubre prácticas sencillas para mantener tu espacio de trabajo fresco y ordenado cada día."
+         data-en="Discover simple practices to keep your workspace fresh and tidy every day.">
+         Descubre prácticas sencillas para mantener tu espacio de trabajo fresco y ordenado cada día.
+      </p>
+      <a href="#trucos" class="btn" data-es="Leer más" data-en="Read more">Leer más</a>
+    </article>
+
+    <!-- Entrada 2: Beneficios ecológicos -->
+    <article class="entrada">
+      <h3 data-es="Beneficios de usar productos ecológicos" 
+          data-en="Benefits of using eco-friendly products">
+          Beneficios de usar productos ecológicos
+      </h3>
+      <p data-es="Los productos ecológicos protegen tu salud y el medio ambiente, además de ofrecer resultados efectivos."
+         data-en="Eco-friendly products protect your health and the environment, while delivering effective results.">
+         Los productos ecológicos protegen tu salud y el medio ambiente, además de ofrecer resultados efectivos.
+      </p>
+      <a href="#ecologicos" class="btn" data-es="Descubre más" data-en="Learn more">Descubre más</a>
+    </article>
+
+  </div>
+</section>
+
+<!-- Detalle de los trucos -->
+<section id="trucos">
+  <h2 data-es="5 trucos para mantener tu oficina impecable" 
+      data-en="5 tips to keep your office spotless">
+      5 trucos para mantener tu oficina impecable
+  </h2>
+  <ul>
+    <li data-es="Organiza tu escritorio al final de cada jornada." 
+        data-en="Organize your desk at the end of each day.">Organiza tu escritorio al final de cada jornada.</li>
+    <li data-es="Desinfecta teclados y teléfonos semanalmente." 
+        data-en="Disinfect keyboards and phones weekly.">Desinfecta teclados y teléfonos semanalmente.</li>
+    <li data-es="Ventila la oficina al menos 10 minutos diarios." 
+        data-en="Air out the office at least 10 minutes daily.">Ventila la oficina al menos 10 minutos diarios.</li>
+    <li data-es="Usa productos ecológicos para superficies." 
+        data-en="Use eco-friendly products for surfaces.">Usa productos ecológicos para superficies.</li>
+    <li data-es="Agenda una limpieza profesional mensual." 
+        data-en="Schedule a professional cleaning monthly.">Agenda una limpieza profesional mensual.</li>
+  </ul>
+  <a href="#contacto" class="btn" data-es="Solicita tu limpieza" data-en="Request your cleaning">Solicita tu limpieza</a>
+</section>
+
+<!-- Detalle de beneficios ecológicos -->
+<section id="ecologicos">
+  <h2 data-es="Beneficios de usar productos ecológicos" 
+      data-en="Benefits of using eco-friendly products">
+      Beneficios de usar productos ecológicos
+  </h2>
+  <p data-es="Los productos ecológicos no solo limpian eficazmente, también cuidan tu salud y reducen el impacto ambiental. Al elegirlos, evitas químicos agresivos, mejoras la calidad del aire interior y contribuyes a un entorno más sostenible."
+     data-en="Eco-friendly products not only clean effectively, they also protect your health and reduce environmental impact. By choosing them, you avoid harsh chemicals, improve indoor air quality, and contribute to a more sustainable environment.">
+     Los productos ecológicos no solo limpian eficazmente, también cuidan tu salud y reducen el impacto ambiental...
+  </p>
+  <a href="#contacto" class="btn" data-es="Solicita tu limpieza ecológica" data-en="Request your eco-friendly cleaning">Solicita tu limpieza ecológica</a>
+</section>
+
+
+  </main>
+
+  <footer>
+    <p>© 2026 LEURET'S MULTISERVICES LLC</p>
+  </footer>
+<script>
+  const form = document.querySelector("form");
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const response = await fetch(form.action, {
+      method: form.method,
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (response.ok) {
+      alert("✅ Gracias, hemos recibido tu solicitud. Te responderemos pronto.");
+      form.reset();
+    } else {
+      alert("❌ Hubo un error al enviar tu mensaje. Inténtalo de nuevo.");
+    }
+  });
+</script>
+
+</body>
+</html>
