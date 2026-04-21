@@ -333,4 +333,24 @@ footer {
   height: 40px;
   margin: 5px;
 }
+/* Ajuste responsive para móviles */
+@media (max-width: 600px) {
+  header .logo-container {
+    flex-direction: column;   /* Logo arriba, texto debajo */
+    align-items: center;      /* Centrado */
+    text-align: center;
+  }
+
+  header .logo {
+    height: 60px;             /* Mantén tamaño proporcionado */
+    margin-right: 0;          /* Quita margen lateral */
+    margin-bottom: 10px;      /* Espacio debajo del logo */
+  }
+
+  header h1 {
+    font-size: 1.4em;         /* Texto más compacto */
+    line-height: 1.2;
+    word-wrap: break-word;    /* Permite saltos de línea */
+  }
+}
 
